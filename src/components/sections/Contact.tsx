@@ -22,7 +22,7 @@ export default function Contact() {
 
         <div className="mt-10 flex flex-col justify-center gap-4 sm:flex-row">
           <a
-            href="mailto:tuemail@ejemplo.com"
+            href="mailto:hello@devjjdoria.com"
             className="rounded-xl bg-white px-6 py-3 font-medium text-black transition hover:scale-105"
           >
             {t("email")}
@@ -36,6 +36,10 @@ export default function Contact() {
           >
             LinkedIn
           </a>
+        </div>
+
+        <div className="mt-8 text-sm text-white/40">
+          hello@devjjdoria.com
         </div>
       </div>
     </section>
