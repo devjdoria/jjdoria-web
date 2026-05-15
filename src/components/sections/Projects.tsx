@@ -14,10 +14,11 @@ const projects = [
     url: "https://crm-dashboard-dusky-zeta.vercel.app",
   },
   {
-    title: "Sistema de citas",
-    tag: "Reservas",
+    title: "Automatización básica",
+    tag: "Lead workflow",
     description:
-      "Aplicación sencilla para gestionar disponibilidad, solicitudes y confirmaciones.",
+      "Demo conceptual de automatización para capturar leads, actualizar un CRM y enviar emails de seguimiento.",
+    url: "https://leadflow-automation.vercel.app/",
   },
 ];
 
