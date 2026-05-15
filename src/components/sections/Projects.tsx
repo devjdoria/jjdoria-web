@@ -1,3 +1,5 @@
+"use client";
+
 import {
   ArrowUpRight,
   BadgeCheck,
@@ -5,54 +7,51 @@ import {
   LayoutDashboard,
   Workflow,
 } from "lucide-react";
+import { useTranslations } from "next-intl";
 
-const projects = [
+const projectConfig = [
   {
-    title: "CRM Dashboard",
-    type: "SaaS / Web Application",
-    description:
-      "Conceptual dashboard for small businesses with metrics, clients, revenue and recent activity.",
-    features: ["Dashboard", "Clients", "Metrics", "Responsive UI"],
     url: "https://crm-dashboard-dusky-zeta.vercel.app",
     icon: LayoutDashboard,
   },
   {
-    title: "Restaurant Landing",
-    type: "Premium Landing Page",
-    description:
-      "Visual restaurant landing page with menu showcase, reservations, reviews and premium aesthetics.",
-    features: ["Visual Hero", "Menu", "Reservations", "WhatsApp CTA"],
     url: "https://restaurant-landing-liart.vercel.app/",
     icon: Code2,
   },
   {
-    title: "LeadFlow Automation",
-    type: "Automation / Workflow",
-    description:
-      "Conceptual automation demo for lead capture, CRM updates and follow-up emails.",
-    features: ["Lead Capture", "CRM Update", "Email Flow", "Dashboard"],
     url: "https://leadflow-automation.vercel.app/",
     icon: Workflow,
   },
 ];
 
 export default function Projects() {
+  const t = useTranslations("Projects");
+
+  const projects = projectConfig.map((project, index) => ({
+    ...project,
+    title: t(`items.${index}.title`),
+    type: t(`items.${index}.type`),
+    description: t(`items.${index}.description`),
+    features: [
+      t(`items.${index}.features.0`),
+      t(`items.${index}.features.1`),
+      t(`items.${index}.features.2`),
+      t(`items.${index}.features.3`),
+    ],
+  }));
+
   return (
     <section id="proyectos" className="px-6 py-28">
       <div className="mx-auto max-w-6xl">
         <div className="mb-14 max-w-3xl">
           <span className="mb-4 inline-flex rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-white/70">
-            Demo Projects
+            {t("badge")}
           </span>
 
-          <h2 className="text-4xl font-bold md:text-5xl">
-            Interactive demos that showcase real digital solutions.
-          </h2>
+          <h2 className="text-4xl font-bold md:text-5xl">{t("title")}</h2>
 
           <p className="mt-5 text-lg leading-relaxed text-white/60">
-            These conceptual projects are designed to demonstrate how modern
-            websites, dashboards and automation workflows can help businesses
-            look more professional and operate more efficiently.
+            {t("description")}
           </p>
         </div>
 
@@ -79,10 +78,9 @@ export default function Projects() {
                     href={project.url}
                     target="_blank"
                     rel="noreferrer"
-                    aria-label={`Open ${project.title}`}
+                    aria-label={`${t("openDemo")} ${project.title}`}
                     className="absolute inset-0"
                   />
-
                 </div>
 
                 <div className="flex flex-1 flex-col p-6">
@@ -119,7 +117,7 @@ export default function Projects() {
                       rel="noreferrer"
                       className="inline-flex items-center gap-2 rounded-xl bg-white px-4 py-2 text-sm font-medium text-black transition hover:scale-105"
                     >
-                      Open Demo
+                      {t("openDemo")}
                       <ArrowUpRight size={16} />
                     </a>
                   </div>
@@ -130,20 +128,17 @@ export default function Projects() {
         </div>
 
         <div className="mt-10 rounded-[2rem] border border-white/10 bg-white/[0.03] p-8 text-center">
-          <h3 className="text-2xl font-semibold">
-            Looking for something similar for your business?
-          </h3>
+          <h3 className="text-2xl font-semibold">{t("ctaTitle")}</h3>
 
           <p className="mx-auto mt-3 max-w-2xl text-white/60">
-            I can adapt this type of solution into a real website, internal tool
-            or automation workflow tailored to your business needs.
+            {t("ctaDescription")}
           </p>
 
           <a
             href="#contacto"
             className="mt-6 inline-flex rounded-xl bg-white px-5 py-3 font-medium text-black transition hover:scale-105"
           >
-            Let’s Talk
+            {t("ctaButton")}
           </a>
         </div>
       </div>
