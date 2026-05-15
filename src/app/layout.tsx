@@ -7,8 +7,18 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "JJDoria",
-  description: "Full Stack Developer",
+  title: "JJDoria | Software development",
+  description:
+    "Modern web-sites, apps and business automation.",
+  openGraph: {
+    title: "JJDoria",
+    description:
+      "Software development and AI automation.",
+    url: "https://www.devjjdoria.com",
+    siteName: "JJDoria",
+    locale: "es_ES",
+    type: "website",
+  },
 };
 
 export default function RootLayout({

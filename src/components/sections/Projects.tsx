@@ -9,7 +9,8 @@ const projects = [
     title: "Dashboard de clientes",
     tag: "Aplicación web",
     description:
-      "Panel conceptual con login, gestión de clientes y visualización de datos clave.",
+      "Panel conceptual con gestión de clientes, métricas de negocio y actividad reciente.",
+    url: "https://crm-dashboard-dusky-zeta.vercel.app",
   },
   {
     title: "Sistema de citas",
@@ -66,6 +67,15 @@ export default function Projects() {
                 </span>
                 <h3 className="mb-3 text-xl font-semibold">{project.title}</h3>
                 <p className="text-white/60">{project.description}</p>
+                  {"url" in project && (
+                    <a
+                      href={project.url}
+                      target="_blank"
+                      className="mt-5 inline-flex rounded-xl bg-white px-4 py-2 text-sm font-medium text-black transition hover:scale-105"
+                    >
+                      Ver demo
+                    </a>
+                  )}
               </div>
             </article>
           ))}
