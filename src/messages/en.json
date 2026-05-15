@@ -1,0 +1,97 @@
+{
+  "Navbar": {
+    "services": "Services",
+    "projects": "Projects",
+    "process": "Process",
+    "contact": "Contact",
+    "cta": "Let’s talk"
+  },
+  "Hero": {
+    "badge": "Full Stack Developer · Websites · Apps · Automation",
+    "title": "I build modern digital solutions for businesses that want to stand out",
+    "description": "Professional websites, applications and automations designed to help you sell more, save time and build trust.",
+    "services": "View services",
+    "contact": "Contact"
+  },
+  "Services": {
+  "badge": "Services",
+  "title": "Clear, modern digital solutions ready to grow with your business.",
+  "items": [
+    {
+      "title": "Professional websites",
+      "description": "Modern, fast and polished websites designed to build trust and turn visitors into opportunities."
+    },
+    {
+      "title": "Landing pages",
+      "description": "Pages focused on attracting clients, validating ideas or launching services quickly."
+    },
+    {
+      "title": "Web applications",
+      "description": "Internal tools, dashboards, MVPs and custom solutions for your business."
+    },
+    {
+      "title": "Maintenance",
+      "description": "Support, improvements, updates and continuous evolution for your website or application."
+    },
+    {
+      "title": "Basic automation",
+      "description": "Automation for forms, emails, integrations and simple repetitive tasks."
+    }
+  ]
+},
+"Projects": {
+  "badge": "Demo Projects",
+  "title": "Interactive demos that showcase real digital solutions.",
+  "description": "These conceptual projects are designed to demonstrate how modern websites, dashboards and automation workflows can help businesses look more professional and operate more efficiently.",
+  "openDemo": "Open Demo",
+  "ctaTitle": "Looking for something similar for your business?",
+  "ctaDescription": "I can adapt this type of solution into a real website, internal tool or automation workflow tailored to your business needs.",
+  "ctaButton": "Let’s Talk",
+  "items": [
+    {
+      "title": "CRM Dashboard",
+      "type": "SaaS / Web Application",
+      "description": "Conceptual dashboard for small businesses with metrics, clients, revenue and recent activity.",
+      "features": ["Dashboard", "Clients", "Metrics", "Responsive UI"]
+    },
+    {
+      "title": "Restaurant Landing",
+      "type": "Premium Landing Page",
+      "description": "Visual restaurant landing page with menu showcase, reservations, reviews and premium aesthetics.",
+      "features": ["Visual Hero", "Menu", "Reservations", "WhatsApp CTA"]
+    },
+    {
+      "title": "LeadFlow Automation",
+      "type": "Automation / Workflow",
+      "description": "Conceptual automation demo for lead capture, CRM updates and follow-up emails.",
+      "features": ["Lead Capture", "CRM Update", "Email Flow", "Dashboard"]
+    }
+  ]
+},
+"Process": {
+  "badge": "Process",
+  "title": "Simple, clear work without unnecessary complexity.",
+  "steps": [
+    "I understand your situation",
+    "I propose a clear solution",
+    "I develop a first version",
+    "We review and improve",
+    "We launch and provide support"
+  ]
+},
+"Tech": {
+  "badge": "Technology",
+  "title": "Modern technology, explained simply.",
+  "description": "I work with modern tools to build fast, maintainable and scalable products. I can adapt to the project or propose a simple solution depending on the goal."
+},
+"Contact": {
+  "badge": "Contact",
+  "title": "Do you have an idea, a website to improve or a process to automate?",
+  "description": "Tell me about your situation and I’ll propose a clear, realistic solution adapted to your business.",
+  "email": "Send Email"
+},
+"Footer": {
+  "rights": "All rights reserved.",
+  "services": "Web Development · Applications · Automation"
+}
+}

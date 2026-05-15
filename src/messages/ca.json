@@ -1,0 +1,97 @@
+{
+  "Navbar": {
+    "services": "Serveis",
+    "projects": "Projectes",
+    "process": "Procés",
+    "contact": "Contacte",
+    "cta": "Parlem"
+  },
+  "Hero": {
+    "badge": "Full Stack Developer · Webs · Apps · Automatització",
+    "title": "Desenvolupo solucions digitals modernes per a negocis que volen destacar",
+    "description": "Webs professionals, aplicacions i automatitzacions dissenyades per ajudar-te a vendre més, estalviar temps i transmetre confiança.",
+    "services": "Veure serveis",
+    "contact": "Contactar"
+  },
+  "Services": {
+  "badge": "Serveis",
+  "title": "Solucions digitals clares, modernes i preparades per créixer.",
+  "items": [
+    {
+      "title": "Webs professionals",
+      "description": "Webs modernes, ràpides i cuidades per transmetre confiança i convertir visites en oportunitats."
+    },
+    {
+      "title": "Landing pages",
+      "description": "Pàgines enfocades a captar clients, validar idees o llançar serveis ràpidament."
+    },
+    {
+      "title": "Aplicacions web",
+      "description": "Eines internes, panells, MVPs i solucions a mida per al teu negoci."
+    },
+    {
+      "title": "Manteniment",
+      "description": "Suport, millores, actualitzacions i evolució contínua per a la teva web o aplicació."
+    },
+    {
+      "title": "Automatització bàsica",
+      "description": "Automatització de formularis, emails, integracions i tasques repetitives senzilles."
+    }
+  ]
+},
+"Projects": {
+  "badge": "Projectes demo",
+  "title": "Demos interactives que mostren solucions digitals reals.",
+  "description": "Aquests projectes conceptuals estan dissenyats per mostrar com webs modernes, dashboards i automatitzacions poden ajudar negocis a semblar més professionals i treballar millor.",
+  "openDemo": "Veure demo",
+  "ctaTitle": "Busques alguna cosa semblant per al teu negoci?",
+  "ctaDescription": "Puc adaptar aquest tipus de solució a una web real, una eina interna o una automatització pensada per a les teves necessitats.",
+  "ctaButton": "Parlem",
+  "items": [
+    {
+      "title": "CRM Dashboard",
+      "type": "SaaS / Aplicació web",
+      "description": "Dashboard conceptual per a petits negocis amb mètriques, clients, ingressos i activitat recent.",
+      "features": ["Dashboard", "Clients", "Mètriques", "UI responsive"]
+    },
+    {
+      "title": "Restaurant Landing",
+      "type": "Landing premium",
+      "description": "Landing visual per a restaurant amb carta destacada, reserves, ressenyes i estètica premium.",
+      "features": ["Hero visual", "Carta", "Reserves", "WhatsApp CTA"]
+    },
+    {
+      "title": "LeadFlow Automation",
+      "type": "Automatització / Workflow",
+      "description": "Demo conceptual d'automatització per capturar leads, actualitzar un CRM i enviar emails de seguiment.",
+      "features": ["Captura leads", "CRM update", "Email flow", "Dashboard"]
+    }
+  ]
+},
+"Process": {
+  "badge": "Procés",
+  "title": "Treball simple, clar i sense complicacions innecessàries.",
+  "steps": [
+    "Entenc la teva situació",
+    "Proposo una solució clara",
+    "Desenvolupo una primera versió",
+    "Revisem i millorem",
+    "Publiquem i donem suport"
+  ]
+},
+"Tech": {
+  "badge": "Tecnologia",
+  "title": "Tecnologia moderna, explicada de manera senzilla.",
+  "description": "Treballo amb eines modernes per crear productes ràpids, mantenibles i escalables. Em puc adaptar al projecte o proposar una solució simple segons l'objectiu."
+},
+"Contact": {
+  "badge": "Contacte",
+  "title": "Tens una idea, una web per millorar o un procés per automatitzar?",
+  "description": "Explica'm el teu cas i et proposaré una solució clara, realista i adaptada al teu negoci.",
+  "email": "Enviar email"
+},
+"Footer": {
+  "rights": "Tots els drets reservats.",
+  "services": "Desenvolupament web · Aplicacions · Automatització"
+}
+}

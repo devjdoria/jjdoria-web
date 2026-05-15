@@ -1,49 +1,28 @@
-import { Code2, Globe, LifeBuoy, Rocket, Workflow } from "lucide-react";
+"use client";
 
-const services = [
-  {
-    icon: Globe,
-    title: "Webs profesionales",
-    description:
-      "Webs modernas, rápidas y cuidadas para transmitir confianza y convertir visitas en oportunidades.",
-  },
-  {
-    icon: Rocket,
-    title: "Landing pages",
-    description:
-      "Páginas enfocadas en captar clientes, validar ideas o lanzar servicios de forma rápida.",
-  },
-  {
-    icon: Code2,
-    title: "Aplicaciones web",
-    description:
-      "Herramientas internas, paneles, MVPs y soluciones a medida para tu negocio.",
-  },
-  {
-    icon: LifeBuoy,
-    title: "Mantenimiento",
-    description:
-      "Soporte, mejoras, actualizaciones y evolución continua para tu web o aplicación.",
-  },
-  {
-    icon: Workflow,
-    title: "Automatización básica",
-    description:
-      "Automatización de formularios, emails, integraciones y tareas repetitivas sencillas.",
-  },
-];
+import { Code2, Globe, LifeBuoy, Rocket, Workflow } from "lucide-react";
+import { useTranslations } from "next-intl";
+
+const serviceIcons = [Globe, Rocket, Code2, LifeBuoy, Workflow];
 
 export default function Services() {
+  const t = useTranslations("Services");
+
+  const services = serviceIcons.map((icon, index) => ({
+    icon,
+    title: t(`items.${index}.title`),
+    description: t(`items.${index}.description`),
+  }));
+
   return (
     <section id="servicios" className="px-6 py-28">
       <div className="mx-auto max-w-6xl">
         <div className="mb-14 max-w-2xl">
           <span className="mb-4 inline-block rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-white/70">
-            Servicios
+            {t("badge")}
           </span>
-          <h2 className="text-4xl font-bold md:text-5xl">
-            Soluciones digitales claras, modernas y preparadas para crecer.
-          </h2>
+
+          <h2 className="text-4xl font-bold md:text-5xl">{t("title")}</h2>
         </div>
 
         <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
@@ -59,7 +38,10 @@ export default function Services() {
                   <Icon size={22} />
                 </div>
 
-                <h3 className="mb-3 text-xl font-semibold">{service.title}</h3>
+                <h3 className="mb-3 text-xl font-semibold">
+                  {service.title}
+                </h3>
+
                 <p className="leading-relaxed text-white/60">
                   {service.description}
                 </p>

@@ -1,0 +1,97 @@
+{
+  "Navbar": {
+    "services": "Diensten",
+    "projects": "Projecten",
+    "process": "Proces",
+    "contact": "Contact",
+    "cta": "Laten we praten"
+  },
+  "Hero": {
+    "badge": "Full Stack Developer · Websites · Apps · Automatisering",
+    "title": "Ik bouw moderne digitale oplossingen voor bedrijven die willen opvallen",
+    "description": "Professionele websites, applicaties en automatiseringen die je helpen meer te verkopen, tijd te besparen en vertrouwen uit te stralen.",
+    "services": "Bekijk diensten",
+    "contact": "Contact"
+  },
+  "Services": {
+  "badge": "Diensten",
+  "title": "Heldere, moderne digitale oplossingen die klaar zijn om mee te groeien.",
+  "items": [
+    {
+      "title": "Professionele websites",
+      "description": "Moderne, snelle en verzorgde websites die vertrouwen uitstralen en bezoekers omzetten in kansen."
+    },
+    {
+      "title": "Landing pages",
+      "description": "Pagina’s gericht op het aantrekken van klanten, het valideren van ideeën of het snel lanceren van diensten."
+    },
+    {
+      "title": "Webapplicaties",
+      "description": "Interne tools, dashboards, MVP’s en maatwerkoplossingen voor je bedrijf."
+    },
+    {
+      "title": "Onderhoud",
+      "description": "Support, verbeteringen, updates en voortdurende doorontwikkeling voor je website of applicatie."
+    },
+    {
+      "title": "Basisautomatisering",
+      "description": "Automatisering van formulieren, e-mails, integraties en eenvoudige repetitieve taken."
+    }
+  ]
+},
+"Projects": {
+  "badge": "Demo projecten",
+  "title": "Interactieve demo’s die echte digitale oplossingen laten zien.",
+  "description": "Deze conceptuele projecten laten zien hoe moderne websites, dashboards en automatiseringsflows bedrijven professioneler kunnen laten overkomen en efficiënter kunnen laten werken.",
+  "openDemo": "Demo openen",
+  "ctaTitle": "Zoek je iets vergelijkbaars voor je bedrijf?",
+  "ctaDescription": "Ik kan dit soort oplossing aanpassen naar een echte website, interne tool of automatiseringsworkflow voor jouw bedrijf.",
+  "ctaButton": "Laten we praten",
+  "items": [
+    {
+      "title": "CRM Dashboard",
+      "type": "SaaS / Webapplicatie",
+      "description": "Conceptueel dashboard voor kleine bedrijven met statistieken, klanten, omzet en recente activiteit.",
+      "features": ["Dashboard", "Klanten", "Statistieken", "Responsive UI"]
+    },
+    {
+      "title": "Restaurant Landing",
+      "type": "Premium landingpage",
+      "description": "Visuele restaurantlanding met menu, reserveringen, reviews en premium uitstraling.",
+      "features": ["Visuele hero", "Menu", "Reserveringen", "WhatsApp CTA"]
+    },
+    {
+      "title": "LeadFlow Automation",
+      "type": "Automatisering / Workflow",
+      "description": "Conceptuele automatiseringsdemo voor lead capture, CRM-updates en follow-up e-mails.",
+      "features": ["Lead capture", "CRM update", "Email flow", "Dashboard"]
+    }
+  ]
+},
+"Process": {
+  "badge": "Proces",
+  "title": "Eenvoudig, duidelijk werk zonder onnodige complexiteit.",
+  "steps": [
+    "Ik begrijp jouw situatie",
+    "Ik stel een duidelijke oplossing voor",
+    "Ik ontwikkel een eerste versie",
+    "We evalueren en verbeteren",
+    "We lanceren en bieden ondersteuning"
+  ]
+},
+"Tech": {
+  "badge": "Technologie",
+  "title": "Moderne technologie, eenvoudig uitgelegd.",
+  "description": "Ik werk met moderne tools om snelle, onderhoudbare en schaalbare producten te bouwen. Ik kan me aanpassen aan het project of een eenvoudige oplossing voorstellen afhankelijk van het doel."
+},
+"Contact": {
+  "badge": "Contact",
+  "title": "Heb je een idee, een website om te verbeteren of een proces om te automatiseren?",
+  "description": "Vertel me over jouw situatie en ik stel een duidelijke en realistische oplossing voor die past bij jouw bedrijf.",
+  "email": "E-mail verzenden"
+},
+"Footer": {
+  "rights": "Alle rechten voorbehouden.",
+  "services": "Webontwikkeling · Applicaties · Automatisering"
+}
+}
