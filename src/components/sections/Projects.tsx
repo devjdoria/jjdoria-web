@@ -3,7 +3,8 @@ const projects = [
     title: "Web para restaurante",
     tag: "Landing + reservas",
     description:
-      "Página moderna con carta online, llamada a la acción clara y sistema de reservas simulado.",
+      "Landing premium para restaurante con carta destacada, reseñas, reservas y diseño visual orientado a conversión.",
+    url: "https://restaurant-landing-liart.vercel.app/",
   },
   {
     title: "Dashboard de clientes",
