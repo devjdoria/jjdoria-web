@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+
 import "./globals.css";
 
 const inter = Inter({
@@ -8,29 +11,38 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.devjjdoria.com"),
+
   title: {
     default: "JJDoria | Software Development",
     template: "%s | JJDoria",
   },
+
   description:
     "Modern websites, web applications and business automation for entrepreneurs and small businesses.",
+
   applicationName: "JJDoria",
+
   authors: [{ name: "Jeremy Doria" }],
+
   creator: "Jeremy Doria",
+
   publisher: "JJDoria",
+
   robots: {
     index: true,
     follow: true,
   },
+
   openGraph: {
     title: "JJDoria | Software Development",
     description:
       "Modern websites, web applications and business automation for entrepreneurs and small businesses.",
     url: "https://www.devjjdoria.com/en",
     siteName: "JJDoria",
-    type: "website",
     locale: "en_GB",
+    type: "website",
   },
+
   twitter: {
     card: "summary_large_image",
     title: "JJDoria | Software Development",
@@ -46,7 +58,12 @@ export default function RootLayout({
 }>) {
   return (
     <html>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {children}
+
+        <Analytics />
+        <SpeedInsights />
+      </body>
     </html>
   );
 }
