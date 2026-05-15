@@ -7,17 +7,35 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "JJDoria | Software development",
+  metadataBase: new URL("https://www.devjjdoria.com"),
+  title: {
+    default: "JJDoria | Software Development",
+    template: "%s | JJDoria",
+  },
   description:
-    "Modern web-sites, apps and business automation.",
+    "Modern websites, web applications and business automation for entrepreneurs and small businesses.",
+  applicationName: "JJDoria",
+  authors: [{ name: "Jeremy Doria" }],
+  creator: "Jeremy Doria",
+  publisher: "JJDoria",
+  robots: {
+    index: true,
+    follow: true,
+  },
   openGraph: {
-    title: "JJDoria",
+    title: "JJDoria | Software Development",
     description:
-      "Software development and AI automation.",
-    url: "https://www.devjjdoria.com",
+      "Modern websites, web applications and business automation for entrepreneurs and small businesses.",
+    url: "https://www.devjjdoria.com/en",
     siteName: "JJDoria",
-    locale: "es_ES",
     type: "website",
+    locale: "en_GB",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "JJDoria | Software Development",
+    description:
+      "Modern websites, web applications and business automation for entrepreneurs and small businesses.",
   },
 };
 
@@ -27,7 +45,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es">
+    <html>
       <body className={inter.className}>{children}</body>
     </html>
   );
