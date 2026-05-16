@@ -7,11 +7,11 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 
 const locales = [
-  { code: "en", label: "EN", flag: "🇬🇧" },
-  { code: "es", label: "ES", flag: "🇪🇸" },
-  { code: "it", label: "IT", flag: "🇮🇹" },
-  { code: "ca", label: "CAT", flag: "🏴" },
-  { code: "nl", label: "NL", flag: "🇳🇱" },
+  { code: "en", label: "EN"},
+  { code: "es", label: "ES"},
+  { code: "it", label: "IT"},
+  { code: "ca", label: "CAT"},
+  { code: "nl", label: "NL"},
 ];
 
 export default function Navbar() {
