@@ -80,9 +80,9 @@ export default function Contact() {
             <SubmitButton />
 
             <a
-              href="https://www.linkedin.com/"
+              href="https://www.linkedin.com/in/jeremy-doria-137195330/"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               className="rounded-xl border border-white/20 bg-white/5 px-6 py-3 font-medium backdrop-blur transition hover:bg-white/10"
             >
               LinkedIn
