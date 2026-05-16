@@ -76,7 +76,6 @@ export default function Navbar() {
               onClick={() => setOpen((value) => !value)}
               className="flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-3 py-2 text-sm text-white/80 transition hover:bg-white/10"
             >
-              <span>{activeLocale.flag}</span>
 
               <span className="hidden sm:inline">
                 {activeLocale.label}
@@ -98,7 +97,6 @@ export default function Navbar() {
                         : "text-white/70 hover:bg-white/10 hover:text-white"
                     }`}
                   >
-                    <span>{item.flag}</span>
 
                     <span>{item.label}</span>
                   </a>
