@@ -36,6 +36,17 @@
     {
       "title": "Automatización básica",
       "description": "Automatización de formularios, emails, integraciones y tareas repetitivas sencillas."
+    },
+    {
+      "title": "Hair Salon Landing",
+      "type": "Landing premium",
+      "description": "Landing moderna y elegante para una peluquería premium, con diseño claro, reservas y una experiencia visual cuidada.",
+      "features": [
+        "Diseño claro",
+        "Reservas",
+        "Mobile first",
+        "Branding premium"
+      ]
     }
   ]
 },

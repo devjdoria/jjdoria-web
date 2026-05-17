@@ -36,6 +36,17 @@
     {
       "title": "Automazione di base",
       "description": "Automazione di moduli, email, integrazioni e attività ripetitive semplici."
+    },
+    {
+      "title": "Hair Salon Landing",
+      "type": "Landing premium",
+      "description": "Landing moderna ed elegante per un salone premium, con design chiaro, prenotazioni ed esperienza visiva curata.",
+      "features": [
+        "Design chiaro",
+        "Prenotazioni",
+        "Mobile first",
+        "Branding premium"
+      ]
     }
   ]
 },

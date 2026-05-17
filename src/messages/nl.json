@@ -36,6 +36,17 @@
     {
       "title": "Basisautomatisering",
       "description": "Automatisering van formulieren, e-mails, integraties en eenvoudige repetitieve taken."
+    },
+    {
+      "title": "Hair Salon Landing",
+      "type": "Premium landingpage",
+      "description": "Moderne en elegante landingpage voor een premium kapsalon met een helder design, reserveringen en een verzorgde visuele ervaring.",
+      "features": [
+        "Helder design",
+        "Reserveringen",
+        "Mobile first",
+        "Premium branding"
+      ]
     }
   ]
 },
