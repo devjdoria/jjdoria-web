@@ -110,7 +110,7 @@ export default function Projects() {
 
   return (
     <section id="proyectos" className="px-6 py-28">
-      <div className="mx-auto max-w-6xl">
+      <div className="mx-auto max-w-7xl">
         <div className="mb-14 max-w-3xl">
           <span className="mb-4 inline-flex rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-white/70">
             {t("badge")}
@@ -123,7 +123,7 @@ export default function Projects() {
           </p>
         </div>
 
-        <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+        <div className="grid gap-8 lg:grid-cols-2">
           {projects.map((project) => {
             const Icon = project.icon;
 
