@@ -65,6 +65,17 @@
       "type": "Automation / Workflow",
       "description": "Conceptual automation demo for lead capture, CRM updates and follow-up emails.",
       "features": ["Lead Capture", "CRM Update", "Email Flow", "Dashboard"]
+    },
+    {
+      "title": "Hair Salon Landing",
+      "type": "Premium Landing Page",
+      "description": "Modern and elegant landing page for a premium hair salon with a clean design, booking sections and a polished visual experience.",
+      "features": [
+        "Clean Design",
+        "Bookings",
+        "Mobile First",
+        "Premium Branding"
+      ]
     }
   ]
 },

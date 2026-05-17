@@ -6,6 +6,7 @@ import {
   BadgeCheck,
   Code2,
   LayoutDashboard,
+  Scissors,
   Workflow,
 } from "lucide-react";
 import { useTranslations } from "next-intl";
@@ -22,6 +23,10 @@ const projectConfig = [
   {
     url: "https://leadflow-automation.vercel.app/",
     icon: Workflow,
+  },
+  {
+    url: "https://hair-salon-landing.vercel.app",
+    icon: Scissors,
   },
 ];
 
@@ -118,7 +123,7 @@ export default function Projects() {
           </p>
         </div>
 
-        <div className="grid gap-6 lg:grid-cols-3">
+        <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-4">
           {projects.map((project) => {
             const Icon = project.icon;
 
