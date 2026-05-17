@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useRef, useState } from "react";
 import {
   ArrowUpRight,
   BadgeCheck,
@@ -23,6 +24,68 @@ const projectConfig = [
     icon: Workflow,
   },
 ];
+
+function ProjectPreview({
+  url,
+  title,
+  openLabel,
+}: {
+  url: string;
+  title: string;
+  openLabel: string;
+}) {
+  const containerRef = useRef<HTMLDivElement>(null);
+  const [scale, setScale] = useState(0.2);
+
+  useEffect(() => {
+    const container = containerRef.current;
+    if (!container) return;
+
+    const updateScale = () => {
+      const { width, height } = container.getBoundingClientRect();
+
+      const iframeWidth = 1440;
+      const iframeHeight = 900;
+
+      const newScale = Math.max(width / iframeWidth, height / iframeHeight);
+      setScale(newScale);
+    };
+
+    updateScale();
+
+    const observer = new ResizeObserver(updateScale);
+    observer.observe(container);
+
+    return () => observer.disconnect();
+  }, []);
+
+  return (
+    <div
+      ref={containerRef}
+      className="relative h-56 overflow-hidden border-b border-white/10 bg-zinc-950"
+    >
+      <iframe
+        src={url}
+        title={title}
+        loading="lazy"
+        className="pointer-events-none absolute left-1/2 top-1/2 h-[900px] w-[1440px] border-0"
+        style={{
+          transform: `translate(-50%, -50%) scale(${scale})`,
+        }}
+      />
+
+      <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/10 to-transparent" />
+
+      <a
+        href={url}
+        target="_blank"
+        rel="noreferrer"
+        aria-label={`${openLabel} ${title}`}
+        className="absolute inset-0"
+      />
+    </div>
+  );
+}
 
 export default function Projects() {
   const t = useTranslations("Projects");
@@ -64,28 +127,16 @@ export default function Projects() {
                 key={project.title}
                 className="group flex flex-col overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.03] transition hover:-translate-y-1 hover:bg-white/[0.05]"
               >
-                <div className="relative h-56 overflow-hidden border-b border-white/10 bg-black">
-                  <iframe
-                    src={project.url}
-                    title={project.title}
-                    className="h-[1000px] w-[1500px] origin-top-left scale-[0.19] border-0"
-                    loading="lazy"
-                  />
-
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
-
-                  <a
-                    href={project.url}
-                    target="_blank"
-                    rel="noreferrer"
-                    aria-label={`${t("openDemo")} ${project.title}`}
-                    className="absolute inset-0"
-                  />
-                </div>
+                <ProjectPreview
+                  url={project.url}
+                  title={project.title}
+                  openLabel={t("openDemo")}
+                />
 
                 <div className="flex flex-1 flex-col p-6">
                   <div className="mb-4">
-                    <span className="mb-3 inline-flex rounded-full bg-white/10 px-3 py-1 text-xs text-white/70">
+                    <span className="mb-3 inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1 text-xs text-white/70">
+                      <Icon size={14} />
                       {project.type}
                     </span>
 
