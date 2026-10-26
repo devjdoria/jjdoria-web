@@ -14,95 +14,100 @@
     "contact": "Contactar"
   },
   "Services": {
-  "badge": "Servicios",
-  "title": "Soluciones digitales claras, modernas y preparadas para crecer.",
-  "items": [
-    {
-      "title": "Webs profesionales",
-      "description": "Webs modernas, rápidas y cuidadas para transmitir confianza y convertir visitas en oportunidades."
-    },
-    {
-      "title": "Landing pages",
-      "description": "Páginas enfocadas en captar clientes, validar ideas o lanzar servicios de forma rápida."
-    },
-    {
-      "title": "Aplicaciones web",
-      "description": "Herramientas internas, paneles, MVPs y soluciones a medida para tu negocio."
-    },
-    {
-      "title": "Mantenimiento",
-      "description": "Soporte, mejoras, actualizaciones y evolución continua para tu web o aplicación."
-    },
-    {
-      "title": "Automatización básica",
-      "description": "Automatización de formularios, emails, integraciones y tareas repetitivas sencillas."
-    },
-    {
-      "title": "Hair Salon Landing",
-      "type": "Landing premium",
-      "description": "Landing moderna y elegante para una peluquería premium, con diseño claro, reservas y una experiencia visual cuidada.",
-      "features": [
-        "Diseño claro",
-        "Reservas",
-        "Mobile first",
-        "Branding premium"
-      ]
-    }
-  ]
-},
-"Projects": {
-  "badge": "Proyectos demo",
-  "title": "Demos interactivas que muestran soluciones digitales reales.",
-  "description": "Estos proyectos conceptuales están diseñados para demostrar cómo webs modernas, dashboards y automatizaciones pueden ayudar a negocios a verse más profesionales y trabajar mejor.",
-  "openDemo": "Ver demo",
-  "ctaTitle": "¿Buscas algo parecido para tu negocio?",
-  "ctaDescription": "Puedo adaptar este tipo de solución a una web real, una herramienta interna o una automatización diseñada para tus necesidades.",
-  "ctaButton": "Hablemos",
-  "items": [
-    {
-      "title": "CRM Dashboard",
-      "type": "SaaS / Aplicación web",
-      "description": "Dashboard conceptual para pequeños negocios con métricas, clientes, ingresos y actividad reciente.",
-      "features": ["Dashboard", "Clientes", "Métricas", "UI responsive"]
-    },
-    {
-      "title": "Restaurant Landing",
-      "type": "Landing premium",
-      "description": "Landing visual para restaurante con carta destacada, reservas, reseñas y estética premium.",
-      "features": ["Hero visual", "Carta", "Reservas", "WhatsApp CTA"]
-    },
-    {
-      "title": "LeadFlow Automation",
-      "type": "Automatización / Workflow",
-      "description": "Demo conceptual de automatización para capturar leads, actualizar un CRM y enviar emails de seguimiento.",
-      "features": ["Captura leads", "CRM update", "Email flow", "Dashboard"]
-    }
-  ]
-},
-"Process": {
-  "badge": "Proceso",
-  "title": "Trabajo simple, claro y sin complicaciones innecesarias.",
-  "steps": [
-    "Entiendo tu situación",
-    "Propongo una solución clara",
-    "Desarrollo una primera versión",
-    "Revisamos y mejoramos",
-    "Publicamos y damos soporte"
-  ]
-},
-"Tech": {
-  "badge": "Tecnología",
-  "title": "Tecnología moderna, explicada de forma sencilla.",
-  "description": "Trabajo con herramientas actuales para crear productos rápidos, mantenibles y escalables. Puedo adaptarme al proyecto o proponer una solución simple según el objetivo."
-},
-"Contact": {
-  "badge": "Contacto",
-  "title": "¿Tienes una idea, una web que mejorar o un proceso que automatizar?",
-  "description": "Cuéntame tu caso y te propongo una solución clara, realista y adaptada a tu negocio.",
-  "email": "Enviar email"
-},
-"Footer": {
-  "rights": "Todos los derechos reservados.",
-  "services": "Desarrollo web · Aplicaciones · Automatización"
-}
+    "badge": "Servicios",
+    "title": "Soluciones digitales claras, modernas y preparadas para crecer.",
+    "items": [
+      {
+        "title": "Webs profesionales",
+        "description": "Webs modernas, rápidas y cuidadas para transmitir confianza y convertir visitas en oportunidades."
+      },
+      {
+        "title": "Landing pages",
+        "description": "Páginas enfocadas en captar clientes, validar ideas o lanzar servicios de forma rápida."
+      },
+      {
+        "title": "Aplicaciones web",
+        "description": "Herramientas internas, paneles, MVPs y soluciones a medida para tu negocio."
+      },
+      {
+        "title": "Mantenimiento",
+        "description": "Soporte, mejoras, actualizaciones y evolución continua para tu web o aplicación."
+      },
+      {
+        "title": "Automatización básica",
+        "description": "Automatización de formularios, emails, integraciones y tareas repetitivas sencillas."
+      }
+    ]
+  },
+  "Projects": {
+    "badge": "Trabajos realizados",
+    "title": "Proyectos reales, soluciones a medida.",
+    "description": "Una selección de proyectos desarrollados para clientes y entornos profesionales, junto con trabajos técnicos de investigación y automatización.",
+    "viewProject": "Ver proyecto",
+    "visitWebsite": "Visitar web",
+    "ctaTitle": "¿Tienes un proyecto en mente?",
+    "ctaDescription": "Puedo ayudarte a convertir una necesidad de tu negocio en una solución digital diseñada a medida.",
+    "ctaButton": "Hablemos",
+    "items": [
+      {
+        "title": "Antonio Hormigo",
+        "type": "Desarrollo Full Stack · Plataforma artística",
+        "description": "Plataforma web desarrollada desde cero para un artista, con galería pública y un sistema privado de administración que permite gestionar obras, publicaciones, categorías y disponibilidad.",
+        "features": [
+          "Diseño a medida",
+          "Panel de administración",
+          "Gestión de obras",
+          "Web publicada"
+        ]
+      },
+      {
+        "title": "CREM International",
+        "type": "Software empresarial · Industria",
+        "description": "Desarrollo de una herramienta web interna para configurar máquinas de café profesionales y generar archivos de configuración PMF.",
+        "features": [
+          "Software interno",
+          "Configuración de maquinaria",
+          "Generación PMF",
+          "Entorno Docker"
+        ]
+      },
+      {
+        "title": "QuantiPlant",
+        "type": "Investigación · Automatización",
+        "description": "Sistema de captura fotográfica automatizada desarrollado con Raspberry Pi y Python para documentar experimentos con plantas mediante una interfaz web.",
+        "features": [
+          "Raspberry Pi",
+          "Captura programada",
+          "Interfaz web",
+          "Integración hardware"
+        ]
+      }
+    ]
+  },
+  "Process": {
+    "badge": "Proceso",
+    "title": "Trabajo simple, claro y sin complicaciones innecesarias.",
+    "steps": [
+      "Entiendo tu situación",
+      "Propongo una solución clara",
+      "Desarrollo una primera versión",
+      "Revisamos y mejoramos",
+      "Publicamos y damos soporte"
+    ]
+  },
+  "Tech": {
+    "badge": "Tecnología",
+    "title": "Tecnología moderna, explicada de forma sencilla.",
+    "description": "Trabajo con herramientas actuales para crear productos rápidos, mantenibles y escalables. Puedo adaptarme al proyecto o proponer una solución simple según el objetivo."
+  },
+  "Contact": {
+    "badge": "Contacto",
+    "title": "¿Tienes una idea, una web que mejorar o un proceso que automatizar?",
+    "description": "Cuéntame tu caso y te propongo una solución clara, realista y adaptada a tu negocio.",
+    "email": "Enviar email"
+  },
+  "Footer": {
+    "rights": "Todos los derechos reservados.",
+    "services": "Desarrollo web · Aplicaciones · Automatización"
+  }
 }

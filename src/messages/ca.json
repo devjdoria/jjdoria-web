@@ -40,56 +40,46 @@
     ]
   },
   "Projects": {
-    "badge": "Projectes demo",
-    "title": "Demos interactives que mostren solucions digitals reals.",
-    "description": "Aquests projectes conceptuals estan dissenyats per mostrar com webs modernes, dashboards i automatitzacions poden ajudar negocis a semblar més professionals i treballar millor.",
-    "openDemo": "Veure demo",
-    "ctaTitle": "Busques alguna cosa semblant per al teu negoci?",
-    "ctaDescription": "Puc adaptar aquest tipus de solució a una web real, una eina interna o una automatització pensada per a les teves necessitats.",
+    "badge": "Projectes realitzats",
+    "title": "Projectes reals, solucions a mida.",
+    "description": "Una selecció de projectes per a clients, programari professional i treballs tècnics de recerca i automatització.",
+    "viewProject": "Veure projecte",
+    "visitWebsite": "Visitar web",
+    "ctaTitle": "Tens un projecte en ment?",
+    "ctaDescription": "Puc ajudar-te a transformar les necessitats del teu negoci en una solució digital a mida.",
     "ctaButton": "Parlem",
     "items": [
       {
-        "title": "CRM Dashboard",
-        "type": "SaaS / Aplicació web",
-        "description": "Dashboard conceptual per a petits negocis amb mètriques, clients, ingressos i activitat recent.",
+        "title": "Antonio Hormigo",
+        "type": "Desenvolupament Full Stack · Plataforma artística",
+        "description": "Plataforma web creada des de zero per a un artista, amb galeria pública i administració privada per gestionar obres, publicacions, categories i disponibilitat.",
         "features": [
-          "Dashboard",
-          "Clients",
-          "Mètriques",
-          "UI responsive"
+          "Disseny a mida",
+          "Panell d'administració",
+          "Gestió d'obres",
+          "Web publicada"
         ]
       },
       {
-        "title": "Restaurant Landing",
-        "type": "Landing premium",
-        "description": "Landing visual per a restaurant amb carta destacada, reserves, ressenyes i estètica premium.",
+        "title": "CREM International",
+        "type": "Programari empresarial · Indústria",
+        "description": "Desenvolupament d'una eina web interna per configurar màquines de cafè professionals i generar fitxers de configuració PMF.",
         "features": [
-          "Hero visual",
-          "Carta",
-          "Reserves",
-          "WhatsApp CTA"
+          "Programari intern",
+          "Configuració de maquinària",
+          "Generació PMF",
+          "Entorn Docker"
         ]
       },
       {
-        "title": "LeadFlow Automation",
-        "type": "Automatització / Workflow",
-        "description": "Demo conceptual d'automatització per capturar leads, actualitzar un CRM i enviar emails de seguiment.",
+        "title": "QuantiPlant",
+        "type": "Recerca · Automatització",
+        "description": "Sistema de captura fotogràfica automatitzada amb Raspberry Pi i Python per documentar experiments amb plantes des d'una interfície web.",
         "features": [
-          "Captura leads",
-          "CRM update",
-          "Email flow",
-          "Dashboard"
-        ]
-      },
-      {
-        "title": "Hair Salon Landing",
-        "type": "Landing premium",
-        "description": "Landing moderna i elegant per a una perruqueria premium, amb disseny clar, reserves i una experiència visual cuidada.",
-        "features": [
-          "Disseny clar",
-          "Reserves",
-          "Mobile first",
-          "Branding premium"
+          "Raspberry Pi",
+          "Captura programada",
+          "Interfície web",
+          "Integració de maquinari"
         ]
       }
     ]
